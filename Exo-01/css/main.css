@@ -15,6 +15,8 @@ body {
     color: #0000ff;
     background-color: rgb(207, 226, 192);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +51,14 @@ img {
     margin: 1.3em auto;
     max-width: 95%;
 }
+
+#titulo h4 { font-size: 36px; line-height: 28px; color: #101010; border-bottom: solid 4px #0b0b0b; margin-bottom: 3px; padding-bottom: 15px; }
+
+#rodape h4 { font-size: 16px; line-height: 18px; color: #101010; border-bottom: solid 4px #0b0b0b; margin-bottom: 3px; padding-bottom: 6px; }
+
+
+
+
 
 @-webkit-keyframes colorize {
     0% {

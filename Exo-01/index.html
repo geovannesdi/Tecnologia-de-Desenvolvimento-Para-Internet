@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Livraria SDI</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
-<h1>Livraria SDI</h1>
-<hr/>
+<div id="titulo" class="shell">    
+<h4>Livraria SDI</h4>
+</div>
 <!-- cria uma tabela -->
 
 <table style="width:800px ">
@@ -48,20 +49,33 @@
 </table>
 
 </body>
-<hr/> <!-- linha final -->
 
-
-<h3>Envie-nos um comentário sobre o SITE :</h3>
-<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name" value="" size="39" ><br>
-E-mail:<br>
-<input type="text" name="mail" value="" size="39" ><br>
-Comentários:<br>
-<textarea rows="10" cols="40" maxlength="500"></textarea>
-<br>
-<input type="submit" value="Enviar">
-<input type="reset" value="Limpar">
-</form>
+<!-- rodape -->
+	<div id="rodape" class="shell">
+		<div class="top">
+			<div class="cnt">				
+				<div class="col store">
+					<h4>Loja</h4>
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Special</a></li>
+						<li><a href="#">Log In</a></li>
+						<li><a href="#">Conta</a></li>
+					</ul>
+				</div>
+				<div class="col" id="newsletter">
+					<h4>Newsletter</h4>					
+					<form action="" method="post">
+						<input type="text" class="field" value="Name" title="Name" />
+						<input type="text" class="field" value="Email" title="Email" />
+						<div class="form-buttons"><input type="submit" value="Submit" class="submit-btn" /></div>
+					</form>
+				</div>
+				<div class="cl">&nbsp;</div>
+				
+			</div>
+		</div>
+	</div>
+<!-- End Footer -->
 
 </html>
