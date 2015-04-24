@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Livraria SDI</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<div id="titulo" class="shell">    
+<h4>Livraria SDI</h4>
+</div>
+<h3>Kit Livros - A Crônica do Matador de Rei</h3>
+
+<table style="width:800px">
+
+<tr>
+	<td><h2><center><p1>Produto.</p1></center></h2></td>
+	<td></td>
+	<td><div id="flip">Mostrar informações do livro</div></td>
+	
+</tr>
+<tr>
+	<td><center><p><img src="img/livroMATADOR.jpg" alt="some_text"></p></center></td>
+	<td></td>
+	<td><div id="panel">PRODUTO: A Crônica do Matador de Rei - Segundo Dia<br/>
+       Título	O Temor do Sábio<br/>ISBN	9788580410327<br/> Páginas	960<br/>Edição	1<br/>Idioma	Português<br/>Idioma	Português<br/>Código de Barras	9788578276300</div>
+    </td>
+	
+</tr>
+
+</table>
+</body>
+     <!-- rodape -->
+	<div id="rodape" class="shell">
+		<div class="top">
+			<div class="cnt">				
+				<div class="col store">
+					<h4>Loja</h4>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="index.html">Special</a></li>
+						<li><a href="#">Log In</a></li>
+						<li><a href="#">Conta</a></li>
+					</ul>
+				</div>
+				<div class="col" id="newsletter">
+					<h4>Newsletter</h4>					
+					<form action="" method="post">
+						<input type="text" class="field" value="Name" title="Name" />
+						<input type="text" class="field" value="Email" title="Email" />
+						<div class="form-buttons"><input type="submit" value="Submit" class="submit-btn" /></div>
+					</form>
+				</div>
+				<div class="cl">&nbsp;</div>
+				
+			</div>
+		</div>
+	</div>
+<!-- End Footer -->
+</html>

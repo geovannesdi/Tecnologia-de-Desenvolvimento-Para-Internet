@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Livraria SDI</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("a").hide();
+            });
+            $("#show").click(function(){
+                $("a").show();
+            });
+        });
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+        });
+    </script>
+
+</head>
+
+    
+    
+    
+<body>    
+<div id="titulo" class="shell">    
+<h4>Livraria SDI</h4>
+</div>
+<!-- cria uma tabela -->
+
+    
+    <button id="hide">Esconder Livros</button>
+    <button id="show">Mostrar Livros</button>
+
+    
+<table style="width:800px ">
+	<!-- Primeira Parte -->
+	<tr> 
+        <td><center><h5><p>Livro - Desenvolvimento de Jogos em HTML5.</p></h5><p>R$ 55,59 / cada</p></center></td>
+		<td><center><h5><p>Kit Livros - A Crônica do Matador de Rei</p></h5><p>R$ 179,90 / cada</p></center></td>
+		<td><center><h5><p>Livro - O Hobbit</p></h5><p>R$ 98,97 / cada</p></center></td>
+		<td><center><h5><p>Livro - Livro - O Senhor dos Anéis - Volume Único.</p></h5><p>R$ 77,59 / cada</p></center></td>	
+	</tr>
+
+	<tr>
+	  <td><center><a href="livroHTML5.html"><img src="img/livroHTML5.jpg" alt="some_text"></center></td>	  
+	  <td><center><a href="livroMATADOR.html"><img src="img/livroMATADOR.jpg" alt="some_text"></center></td>	  
+	  <td><center><a href="livroHOBBIT.html"><img  src="img/livroHOBBIT.jpg" alt="some_text"></center></td>
+	  <td><center><a href="livroSENHORDOSANEIS.html"><img  src="img/livroSENHORDOSANEIS.jpg" alt="some_text"></center></td>	
+	</tr>
+
+	<!-- Segunda parte -->
+	<tr>
+		<td><center><h5><p>Livro - Emperor Of Thorns .</p></h3><p>R$ 155,59 / cada</p></center></td>
+		<td><center><h5><p>Livro - Laranja Mecânica - Edição Especial 50 Anos.</p></h3><p>R$ 46,90 / cada</p></center></td>
+		<td><center><h5><p>Livro - Rei Arthur: E os Cavaleiros da Távola Redonda.</p></h3><p>R$ 58,97 / cada</p></center></td>
+		<td><center><h5><p>Livro - The Story Of King Arthur And His Knights.</p></h3><p>R$ 155,59 / cada</p></center></td>
+	</tr>
+
+	<tr>
+	  <td><a href="livroTHORNS.html"><img src="img/livroTHORNS.jpg" alt="some_text"></td>	  
+	  <td><a href="livroLARANJA.html"><img  src="img/livroLARANJA.jpg" alt="some_text"></td>	  
+	  <td><a href="livroREIARTHUR.html"><img  src="img/livroREIARTHUR.jpg" alt="some_text"></td>
+	  <td><a href="livroKINGARTHUR.html"><img  src="img/livroKINGARTHUR.jpg" alt="some_text"></td>	  
+	</tr>
+	
+</table>
+
+</body>
+
+<!-- rodape -->
+	<div id="rodape" class="shell">
+		<div class="top">
+			<div class="cnt">				
+				<div class="col store">
+					<h4>Loja</h4>
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Special</a></li>
+						<li><a href="#">Log In</a></li>
+						<li><a href="#">Conta</a></li>
+					</ul>
+				</div>
+				<div class="col" id="newsletter">
+					<h4>Newsletter</h4>					
+					<form action="" method="post">
+						<input type="text" class="field" value="Name" title="Name" />
+						<input type="text" class="field" value="Email" title="Email" />
+						<div class="form-buttons"><input type="submit" value="Submit" class="submit-btn" /></div>
+					</form>
+				</div>
+				<div class="cl">&nbsp;</div>
+				
+			</div>
+		</div>
+	</div>
+<!-- End Footer -->
+
+</html>
