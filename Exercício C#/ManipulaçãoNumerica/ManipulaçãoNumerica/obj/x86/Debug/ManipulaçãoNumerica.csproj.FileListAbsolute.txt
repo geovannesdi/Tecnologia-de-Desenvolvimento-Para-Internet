@@ -1,0 +1,4 @@
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\ManipulaçãoNumerica\ManipulaçãoNumerica\bin\Debug\ManipulaçãoNumerica.exe
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\ManipulaçãoNumerica\ManipulaçãoNumerica\bin\Debug\ManipulaçãoNumerica.pdb
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\ManipulaçãoNumerica\ManipulaçãoNumerica\obj\x86\Debug\ManipulaçãoNumerica.exe
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\ManipulaçãoNumerica\ManipulaçãoNumerica\obj\x86\Debug\ManipulaçãoNumerica.pdb
