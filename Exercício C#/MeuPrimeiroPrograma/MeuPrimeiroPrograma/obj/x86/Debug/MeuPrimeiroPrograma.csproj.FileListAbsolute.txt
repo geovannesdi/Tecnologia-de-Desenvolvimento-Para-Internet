@@ -1,0 +1,4 @@
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\MeuPrimeiroPrograma\MeuPrimeiroPrograma\bin\Debug\MeuPrimeiroPrograma.exe
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\MeuPrimeiroPrograma\MeuPrimeiroPrograma\bin\Debug\MeuPrimeiroPrograma.pdb
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\MeuPrimeiroPrograma\MeuPrimeiroPrograma\obj\x86\Debug\MeuPrimeiroPrograma.exe
+E:\GitHub\Tecnologia-de-Desenvolvimento-Para-Internet\Exercício C#\MeuPrimeiroPrograma\MeuPrimeiroPrograma\obj\x86\Debug\MeuPrimeiroPrograma.pdb
